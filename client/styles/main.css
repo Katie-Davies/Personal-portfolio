@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.landing-img {
+  height: 100%;
+  background-image: url('../assets/landing-bg.png');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  color: white; /* Text color */
+  padding: 50px; /* Add padding for content */
+  
+}
