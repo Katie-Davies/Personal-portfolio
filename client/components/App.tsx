@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom"
+import Nav from "./Nav"
 
 
 const App = () => {
@@ -6,7 +7,8 @@ const App = () => {
   return (
     <>
       
-      <h1 className="text-3xl font-bold underline">Katie Davies</h1>
+      
+    <Nav />
      <Outlet/>
         
       
