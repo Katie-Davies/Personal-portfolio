@@ -10,7 +10,7 @@ const [isHovered, setIsHovered] = useState(false)
 // }
   return (
   <>
-<div className="flex justify-around w-2/3 mb-5">
+<div className="flex justify-around w-2/3 mb-5 flex-wrap">
 
       <div
         className="hover-trigger "
