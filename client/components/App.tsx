@@ -1,7 +1,8 @@
-import { Outlet } from "react-router-dom"
+
 import Nav from "./Nav"
 import Projects from "./Projects"
 import About from "./About"
+import Contact from "./Contact"
 
 
 
@@ -25,6 +26,8 @@ const App = () => {
     <About/>
     </div>
     <Projects />
+    <Contact/>
+    
     </>
   )
 }

@@ -20,11 +20,11 @@ const [isHovered, setIsHovered] = useState(false)
         <a href="https://github.com/Katie-Davies/DirtRider" target="_blank" rel="noreferrer"><img src="client/assets/dirtrider.png" alt="DirtriderLogo" className="w-64"></img></a>
 
       </div>
-      {/* {isHovered && (
+      {isHovered && (
         <div className="card ">
           <img src="client/assets/dirtriderview.png" alt="view of dirtrider website"></img>
         </div>
-      )} */}
+      )}
     
   
 
