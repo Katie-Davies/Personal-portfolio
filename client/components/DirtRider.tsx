@@ -10,7 +10,7 @@ const [isHovered, setIsHovered] = useState(false)
 // }
   return (
   <>
-<div className="flex justify-around w-2/3 mb-5">
+<div className="flex justify-around w-2/3 mb-5 flex-wrap">
 
       <div
         className="hover-trigger "
@@ -18,7 +18,7 @@ const [isHovered, setIsHovered] = useState(false)
         onMouseLeave={() => setIsHovered(false)}
       >
         <a href="https://github.com/Katie-Davies/DirtRider" target="_blank" rel="noreferrer"><img src="client/assets/dirtrider.png" alt="DirtriderLogo" className="w-64"></img></a>
-        <img src="client/assets/dirtriderview.png" alt="view of dirtrider website"></img>
+        <img src="client/assets/dirtriderview.png" alt="view of dirtrider website" className="max-w-md"></img>
 
       </div>
       {/* {isHovered && (

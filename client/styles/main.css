@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.landing-img {
+  height: 55rem;
+  background-image: url('../assets/background.png');
+  background-size: cover; /* Cover the entire container */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black; /* Text color */
+  padding: 50px; /* Add padding for content */
+  background-color: #fbfafa;
+  
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
