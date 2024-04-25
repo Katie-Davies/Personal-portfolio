@@ -16,6 +16,18 @@
   
 }
 
+.contact-img {
+  height: 55rem;
+  background-image: url('../assets/contactbg.png');
+  background-size: cover; /* Cover the entire container */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black; /* Text color */
+  padding: 50px; /* Add padding for content */
+  background-color: #fbfafa;
+}
+
 body {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;

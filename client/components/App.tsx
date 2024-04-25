@@ -3,6 +3,7 @@ import Nav from "./Nav"
 import Projects from "./Projects"
 import About from "./About"
 import Contact from "./Contact"
+import Learning from "./Learning"
 
 
 
@@ -25,9 +26,17 @@ const App = () => {
     <div id="about">
     <About/>
     </div>
+    <div id="projects">
     <Projects />
-    <Contact/>
+    </div>
+    <div id="learning">
+      <Learning/>
+    </div>
+    <div id="contact">
+      <Contact/>
+    </div>
     
+
     </>
   )
 }
