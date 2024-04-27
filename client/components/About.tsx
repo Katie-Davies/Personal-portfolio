@@ -7,7 +7,6 @@ function About() {
         </h1>
       </div>
       <div className="flex flex-col flex-wrap content-center">
-        {' '}
         <p className="text-center w-2/3 mb-5">
           I am a full-stack software developer with a passion for crafting
           meaningful digital experiences.
