@@ -9,7 +9,7 @@ function Contact() {
           <img
             src="client/assets/LI-Logo.png"
             alt="linked in logo"
-            className=" h-10 w-24"
+            className=" h-10 w-28"
           ></img>
         </a>
         <a href="https://github.com/Katie-Davies">
