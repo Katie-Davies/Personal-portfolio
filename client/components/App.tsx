@@ -17,6 +17,7 @@ const App = () => {
         </div>
       </div>
       <div id="about">
+        <div className="w-full h-20 bg-white"></div>
         <About />
       </div>
       <div id="projects">
