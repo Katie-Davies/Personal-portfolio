@@ -1,39 +1,37 @@
 function About() {
   return (
     <div className="w-full flex flex-col content-center mt-10 flex-wrap mb-20">
-      <div>
-        {' '}
+      <div className="flex justify-center">
         <h1 className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-5 ">
           About
         </h1>
       </div>
       <div className="flex flex-col flex-wrap content-center">
         {' '}
-        <p className="text-center w-2/3 mb-2">
+        <p className="text-center w-2/3 mb-5">
           I am a full-stack software developer with a passion for crafting
-          meaningful digital experiences. Before diving into the world of
-          coding, I spent years shaping young minds as a primary school teacher.
+          meaningful digital experiences.
         </p>
-        <p className="text-center w-2/3 mb-2">
-          With a background in education, I bring a unique perspective to
-          software development. My experience as a teacher taught me the value
-          of adaptability, collaboration, and problem-solving – skills that I
-          now apply to coding every day.
+        <p className="text-center w-2/3 mb-5">
+          With a background in education as a Primary teacher, I bring a unique
+          perspective to software development. My experience as a teacher taught
+          me the value of adaptability, collaboration, and problem-solving
+          skills that I now apply to coding every day.
         </p>
-        <p className="text-center w-2/3 mb-2">
+        <p className="text-center w-2/3 mb-5">
           As a lifelong learner, I thrive on the constant evolution of
           technology and the endless opportunities it presents for innovation.
           Whether it's building web applications, tinkering with new frameworks,
           or diving into the latest programming languages, I'm always eager to
           expand my skill set and tackle new challenges.
         </p>
-        <p className="text-center w-2/3 mb-2">
+        <p className="text-center w-2/3 mb-5">
           I'm a firm believer in the power of collaboration and teamwork.
           Working alongside talented individuals who share a common goal is
           where I truly thrive. Together, we can turn ideas into reality and
           create impactful solutions that make a difference in people's lives.
         </p>
-        <p className="text-center w-2/3 mb-2">
+        <p className="text-center w-2/3 mb-5">
           I'm excited to continue my journey as a software developer, pushing
           boundaries, solving problems, and making a positive impact along the
           way. Let's build something amazing together!
