@@ -14,11 +14,10 @@ function Prompter() {
             </li>
 
             <li className="mt-3">
-              This was my first full-stack application and deployment, creating
-              a simple todos list. It was a challenge to explore how to work
-              with different data types and how this can change the
-              functionality in the front. Working with booleans to be able to
-              use checkboxes.
+              A Friday group project based on Reddit to create a fun place for
+              people to find icebreaker questions and post their response. This
+              was our first project implementing Auth0 to allow users to have
+              their own accounts.
             </li>
           </ul>
         </div>
