@@ -60,6 +60,14 @@ h1 {
 .mealeasy-bg {
   height: 400px;
   width: 600px;
+  background-image: url('../assets/lightpinkbg.png');
+  background-size: contain; /* Cover the entire container */
+  background-repeat: no-repeat;
+}
+
+.prompter-bg {
+  height: 400px;
+  width: 600px;
   background-image: url('../assets/pinkbg.png');
   background-size: contain; /* Cover the entire container */
   background-repeat: no-repeat;

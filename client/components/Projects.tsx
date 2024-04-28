@@ -12,6 +12,23 @@ function Projects() {
           Projects
         </h1>
       </div>
+      <div className="flex flex-col h-auto">
+        <div className="flex justify-center">
+          <DirtRider />
+        </div>
+        <div>
+          <MealEasy />
+        </div>
+        <div>
+          <Todos />
+        </div>
+        <div>
+          <Prompter />
+        </div>
+        <div>
+          <Foundations />
+        </div>
+      </div>
     </>
   )
 }

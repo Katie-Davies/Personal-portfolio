@@ -28,24 +28,6 @@ const App = () => {
         </div>
         <div id="projects" className="h-auto">
           <Projects />
-
-          <div className="flex flex-col h-auto">
-            <div className="flex justify-center">
-              <DirtRider />
-            </div>
-            <div>
-              <MealEasy />
-            </div>
-            <div>
-              <Todos />
-            </div>
-            <div>
-              <Prompter />
-            </div>
-            <div>
-              <Foundations />
-            </div>
-          </div>
         </div>
         <div className="h-20 bg-white"></div>
         <div id="contact" className="h-auto ">
