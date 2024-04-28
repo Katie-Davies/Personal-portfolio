@@ -23,8 +23,8 @@ function Todos() {
               <strong>Status:</strong> Deployed
             </li>
             <li>
-              <strong>Tech: </strong>React | React-Router | Node | Express |
-              Typescript | sqlite3 | Dokku
+              <strong>Tech: </strong>React | Node | Express | Typescript |
+              sqlite3 | Dokku
             </li>
 
             <li className="mt-3">
@@ -35,7 +35,7 @@ function Todos() {
               use checkboxes.
             </li>
             <li>
-              <strong>Stretches:</strong> Adding the option to edit a todo.
+              <strong>Next steps:</strong> Adding the option to edit a todo.
             </li>
           </ul>
         </div>

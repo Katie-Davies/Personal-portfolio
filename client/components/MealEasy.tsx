@@ -11,18 +11,18 @@ function MealEasy() {
               </li>
               <li>
                 <strong>Tech: </strong>React | React-Router | Node | Express |
-                Typescript | sqlite3 | Auth0 | Dokku
+                Typescript | sqlite3 | Auth0 | REST API | Dokku
               </li>
 
               <li className="mt-3">
-                This was my first full-stack application and deployment,
-                creating a simple todos list. It was a challenge to explore how
-                to work with different data types and how this can change the
-                functionality in the front. Working with booleans to be able to
-                use checkboxes.
+                This was my final group project to create a meal planner app to
+                ease the weekly stress of finding recipes. Users are able to set
+                preferences, load more recipes, select and view shopping lists.
+                They can then reselect plans from previous weeks.
               </li>
               <li>
-                <strong>Stretches:</strong> Adding the option to edit a todo.
+                <strong>Next Steps:</strong> User adding own recipes, using a
+                non-relational database and deploying on cloud.
               </li>
             </ul>
           </div>

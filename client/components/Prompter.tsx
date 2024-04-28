@@ -2,7 +2,7 @@ function Prompter() {
   return (
     <div className="flex mb-5 justify-center flex-wrap mx-5 h-auto">
       <div className="prompter-bg flex content-start justify-center flex-wrap ml-5">
-        <div className="flex content-center flex-wrap w-2/3 justify-center mt-10">
+        <div className="flex content-center flex-wrap w-2/3 justify-center mt-10 mr-5">
           <ul>
             <li className="font-bold mb-2">Prompter</li>
             <li>
