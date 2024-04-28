@@ -13,7 +13,7 @@ function Prompter() {
               Typescript | sqlite3 | Auth0
             </li>
 
-            <li className="mt-5">
+            <li className="mt-3">
               This was my first full-stack application and deployment, creating
               a simple todos list. It was a challenge to explore how to work
               with different data types and how this can change the

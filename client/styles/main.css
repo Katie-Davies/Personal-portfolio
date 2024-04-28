@@ -44,32 +44,32 @@ h1 {
 .dirtrider-bg {
   height: 400px;
   width: 600px;
-  background-image: url('../assets/greenbg.png');
-  background-size: contain; /* Cover the entire container */
+  background-image: url('../assets/greenbg400x600.png');
+  background-size: cover; /* Cover the entire container */
   background-repeat: no-repeat;
 }
 
 .todos-bg {
   height: 400px;
   width: 600px;
-  background-image: url('../assets/yellowbg.png');
-  background-size: contain; /* Cover the entire container */
+  background-image: url('../assets/yellowbg400x600.png');
+  background-size: cover; /* Cover the entire container */
   background-repeat: no-repeat;
 }
 
 .mealeasy-bg {
   height: 400px;
   width: 600px;
-  background-image: url('../assets/lightpinkbg.png');
-  background-size: contain; /* Cover the entire container */
+  background-image: url('../assets/lightpinkbg400x600.png');
+  background-size: cover; /* Cover the entire container */
   background-repeat: no-repeat;
 }
 
 .prompter-bg {
   height: 400px;
   width: 600px;
-  background-image: url('../assets/pinkbg.png');
-  background-size: contain; /* Cover the entire container */
+  background-image: url('../assets/pinkbg400x600.png');
+  background-size: cover; /* Cover the entire container */
   background-repeat: no-repeat;
 }
 

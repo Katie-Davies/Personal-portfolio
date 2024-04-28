@@ -1,5 +1,5 @@
 import DirtRider from './DirtRider'
-import Foundations from './Foundations'
+
 import MealEasy from './MealEasy'
 import Prompter from './Prompter'
 import Todos from './Todos'
@@ -16,17 +16,14 @@ function Projects() {
         <div className="flex justify-center">
           <DirtRider />
         </div>
-        <div>
+        <div className="flex justify-center">
           <MealEasy />
         </div>
-        <div>
+        <div className="flex justify-center">
           <Todos />
         </div>
-        <div>
+        <div className="flex justify-center">
           <Prompter />
-        </div>
-        <div>
-          <Foundations />
         </div>
       </div>
     </>

@@ -29,7 +29,6 @@ const App = () => {
         <div id="projects" className="h-auto">
           <Projects />
         </div>
-        <div className="h-20 bg-white"></div>
         <div id="contact" className="h-auto ">
           <Contact />
         </div>

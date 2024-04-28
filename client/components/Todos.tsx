@@ -1,18 +1,7 @@
 function Todos() {
   return (
     <div className="flex mb-5 justify-center flex-wrap mx-5 h-auto">
-      <div>
-        <a
-          href="https://kate-todos.pushed.nz/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="client/assets/todos.png"
-            alt="Todos Logo"
-            className="w-40"
-          ></img>
-        </a>
+      <div className="flex content-center flex-wrap">
         <a
           href="https://kate-todos.pushed.nz/"
           target="_blank"
@@ -29,6 +18,7 @@ function Todos() {
       <div className="todos-bg flex content-start justify-center flex-wrap ml-5">
         <div className="flex content-center flex-wrap w-2/3 justify-center mt-10">
           <ul>
+            <li className="font-bold">Todos</li>
             <li>
               <strong>Status:</strong> Deployed
             </li>
@@ -37,7 +27,7 @@ function Todos() {
               Typescript | sqlite3 | Dokku
             </li>
 
-            <li className="mt-5">
+            <li className="mt-3">
               This was my first full-stack application and deployment, creating
               a simple todos list. It was a challenge to explore how to work
               with different data types and how this can change the

@@ -1,12 +1,8 @@
 function DirtRider() {
-  // function handleHover (e) {
-  // return
-
-  // }
   return (
     <>
       <div className="flex mb-5 justify-center flex-wrap mx-5 h-auto">
-        <div>
+        <div className="flex content-center flex-wrap">
           <a
             href="https://github.com/Katie-Davies/DirtRider"
             target="_blank"
@@ -34,7 +30,7 @@ function DirtRider() {
               <li>
                 <strong>Currently learning:</strong> PostgreSQL and Azure AD.
               </li>
-              <li className="mt-5">
+              <li className="mt-3">
                 This is a personal project based on a need I noticed when
                 shopping for my own dirtbike. Being able to try out different
                 bikes to see which ones suits you best. Allowing people to rent
