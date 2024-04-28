@@ -5,7 +5,7 @@ function MealEasy() {
         <div className="mealeasy-bg flex content-start justify-center flex-wrap ml-5">
           <div className="flex content-center flex-wrap w-2/3 justify-center mt-10">
             <ul>
-              <li className="font-bold">MealEasy</li>
+              <li className="font-bold mb-3 text-2xl">MealEasy</li>
               <li>
                 <strong>Status:</strong> Deployed V1 | Development V2
               </li>

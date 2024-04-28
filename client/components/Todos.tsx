@@ -18,7 +18,7 @@ function Todos() {
       <div className="todos-bg flex content-start justify-center flex-wrap ml-5">
         <div className="flex content-center flex-wrap w-2/3 justify-center mt-10">
           <ul>
-            <li className="font-bold">Todos</li>
+            <li className="font-bold mb-3 text-2xl">Todos</li>
             <li>
               <strong>Status:</strong> Deployed V1
             </li>
@@ -34,7 +34,7 @@ function Todos() {
               functionality in the front. Working with booleans to be able to
               use checkboxes.
             </li>
-            <li>
+            <li className="mt-5">
               <strong>Next steps:</strong> Adding the option to edit a todo.
             </li>
           </ul>
