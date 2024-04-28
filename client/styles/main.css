@@ -31,6 +31,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  height: auto;
 }
 
 h1 {
@@ -52,6 +53,14 @@ h1 {
   height: 400px;
   width: 600px;
   background-image: url('../assets/yellowbg.png');
+  background-size: contain; /* Cover the entire container */
+  background-repeat: no-repeat;
+}
+
+.mealeasy-bg {
+  height: 400px;
+  width: 600px;
+  background-image: url('../assets/pinkbg.png');
   background-size: contain; /* Cover the entire container */
   background-repeat: no-repeat;
 }

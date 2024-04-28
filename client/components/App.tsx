@@ -3,6 +3,11 @@ import Projects from './Projects'
 import About from './About'
 import Contact from './Contact'
 import Learning from './Learning'
+import DirtRider from './DirtRider'
+import MealEasy from './MealEasy'
+import Todos from './Todos'
+import Prompter from './Prompter'
+import Foundations from './Foundations'
 
 const App = () => {
   return (
@@ -16,18 +21,36 @@ const App = () => {
           </p>
         </div>
       </div>
-      <div id="about">
-        <div className="w-full h-20 bg-white"></div>
-        <About />
-      </div>
-      <div id="projects">
-        <Projects />
-      </div>
-      <div id="learning">
-        <Learning />
-      </div>
-      <div id="contact">
-        <Contact />
+      <div className="flex flex-col">
+        <div id="about">
+          <div className="w-full h-20 bg-white"></div>
+          <About />
+        </div>
+        <div id="projects" className="h-auto">
+          <Projects />
+
+          <div className="flex flex-col h-auto">
+            <div className="flex justify-center">
+              <DirtRider />
+            </div>
+            <div>
+              <MealEasy />
+            </div>
+            <div>
+              <Todos />
+            </div>
+            <div>
+              <Prompter />
+            </div>
+            <div>
+              <Foundations />
+            </div>
+          </div>
+        </div>
+        <div className="h-20 bg-white"></div>
+        <div id="contact" className="h-auto ">
+          <Contact />
+        </div>
       </div>
     </>
   )

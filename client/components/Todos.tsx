@@ -1,6 +1,6 @@
 function Todos() {
   return (
-    <div className="flex mb-5 justify-center flex-wrap mx-5">
+    <div className="flex mb-5 justify-center flex-wrap mx-5 h-auto">
       <div>
         <a
           href="https://kate-todos.pushed.nz/"

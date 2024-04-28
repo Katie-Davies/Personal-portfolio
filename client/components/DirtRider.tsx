@@ -5,7 +5,7 @@ function DirtRider() {
   // }
   return (
     <>
-      <div className="flex mb-5 flex-wrap mx-5">
+      <div className="flex mb-5 flex-wrap mx-5 h-auto">
         <div>
           <a
             href="https://github.com/Katie-Davies/DirtRider"
