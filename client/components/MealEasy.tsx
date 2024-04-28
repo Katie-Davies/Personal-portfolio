@@ -7,11 +7,11 @@ function MealEasy() {
             <ul>
               <li className="font-bold">MealEasy</li>
               <li>
-                <strong>Status:</strong> Deployed
+                <strong>Status:</strong> Development
               </li>
               <li>
                 <strong>Tech: </strong>React | React-Router | Node | Express |
-                Typescript | sqlite3 | Auth0 | REST API | Dokku
+                Typescript | sqlite | Auth0 | REST API | Dokku
               </li>
 
               <li className="mt-3">

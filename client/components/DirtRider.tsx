@@ -25,16 +25,18 @@ function DirtRider() {
               </li>
               <li>
                 <strong>Tech: </strong>React | React-Router | Node | Express |
-                Typescript | SQL | Azure AD B2C
+                Typescript | sqlite | Azure AD B2C
               </li>
-              <li>
-                <strong>Currently learning:</strong> PostgreSQL and Azure AD.
-              </li>
+
               <li className="mt-3">
                 This is a personal project based on a need I noticed when
                 shopping for my own dirtbike. Being able to try out different
                 bikes to see which ones suits you best. Allowing people to rent
                 out their bikes and make money when they are not using them.
+              </li>
+              <li>
+                <strong>Next steps:</strong> Using PostgreSQL, implementing
+                Azure AD B2C, deploying with Azure.
               </li>
             </ul>
           </div>
