@@ -31,7 +31,7 @@ function DirtRider() {
           </a>
         </div>
 
-        <div className="dirtrider-bg flex content-start justify-center flex-wrap">
+        <div className="dirtrider-bg flex content-start justify-center flex-wrap ml-5">
           <div className="flex content-center flex-wrap w-2/3 justify-center mt-10">
             <ul>
               <li>
@@ -54,7 +54,6 @@ function DirtRider() {
           </div>
         </div>
       </div>
-      {/* <button onMouseEnter={handleHover}>Hover test </button> */}
     </>
   )
 }

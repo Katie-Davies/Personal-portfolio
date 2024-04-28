@@ -48,6 +48,14 @@ h1 {
   background-repeat: no-repeat;
 }
 
+.todos-bg {
+  height: 400px;
+  width: 600px;
+  background-image: url('../assets/yellowbg.png');
+  background-size: contain; /* Cover the entire container */
+  background-repeat: no-repeat;
+}
+
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 900
 
