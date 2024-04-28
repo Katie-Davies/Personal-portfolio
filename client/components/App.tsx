@@ -2,6 +2,7 @@ import Nav from './Nav'
 import Projects from './Projects'
 import About from './About'
 import Contact from './Contact'
+import Footer from './Footer'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <div id="contact" className="h-auto ">
           <Contact />
         </div>
+        <Footer />
       </div>
     </>
   )
