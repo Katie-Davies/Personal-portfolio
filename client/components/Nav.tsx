@@ -1,20 +1,46 @@
 function Nav() {
+  const handleClick = (id: string) => {
+    const heading = document.getElementById(id)
+    if (heading) {
+      // scroll through slowly
+      heading.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
+  const handleDownloadPdf = () => {
+    const pdfUrl = 'client/assets/KatieDavies2024-Cv.pdf'
+    // Open the PDF file in a new window/tab
+    window.open(pdfUrl, '_blank')
+  }
+
   return (
     <div className="fixed flex justify-between w-full bg-white">
       <h1 className="md:m-3 sm:m-2 lg:m-4 px-3">Katie Davies </h1>
       <div className="flex justify-around">
-        <a href="#about" className="md:m-3 sm:m-2 lg:m-4 px-3">
+        <button
+          onClick={() => handleClick('about')}
+          className="md:m-3 sm:m-2 lg:m-4 px-3"
+        >
           About
-        </a>
-        <a href="#projects" className="md:m-3 sm:m-2 lg:m-4 px-3 ">
+        </button>
+        <button
+          onClick={() => handleClick('projects')}
+          className="md:m-3 sm:m-2 lg:m-4 px-3 "
+        >
           Projects
-        </a>
-        <a href="#learning" className="md:m-3 sm:m-2 lg:m-4 px-3 ">
-          Learning
-        </a>
-        <a href="#contact" className="md:m-3 sm:m-2 lg:m-4 px-3 ">
+        </button>
+        <button
+          onClick={handleDownloadPdf}
+          className="md:m-3 sm:m-2 lg:m-4 px-3 "
+        >
+          CV
+        </button>
+        <button
+          onClick={() => handleClick('contact')}
+          className="md:m-3 sm:m-2 lg:m-4 px-3 "
+        >
           Contact
-        </a>
+        </button>
       </div>
     </div>
   )

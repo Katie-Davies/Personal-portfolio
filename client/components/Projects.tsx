@@ -1,5 +1,5 @@
 import DirtRider from './DirtRider'
-import Foundations from './Foundations'
+
 import MealEasy from './MealEasy'
 import Prompter from './Prompter'
 import Todos from './Todos'
@@ -7,19 +7,26 @@ import Todos from './Todos'
 function Projects() {
   return (
     <>
+      <div className="bg-white h-20 w-full"></div>
       <div className="flex justify-center">
-        <h1 className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-5 ">
+        <h1 className="text-base md:text-2xl lg:text-4xl mb-10 font-bold">
           Projects
         </h1>
       </div>
-      <div className="flex flex-col content-center flex-wrap h-lvh">
-        <DirtRider />
-        <MealEasy />
-        <Todos />
-        <Prompter />
-        <Foundations />
+      <div className="flex flex-col h-auto">
+        <div className="flex justify-center">
+          <DirtRider />
+        </div>
+        <div className="flex justify-center">
+          <MealEasy />
+        </div>
+        <div className="flex justify-center">
+          <Todos />
+        </div>
+        <div className="flex justify-center">
+          <Prompter />
+        </div>
       </div>
-      {/* <button onMouseEnter={handleHover}>Hover test </button> */}
     </>
   )
 }
