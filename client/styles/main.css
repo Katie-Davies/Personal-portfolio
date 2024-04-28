@@ -82,3 +82,15 @@ h1 {
   font-weight: <weight>;
   font-style: normal;
 } */
+
+/* Media query for mobile phones */
+@media only screen and (max-width: 767px) {
+  .landing-img {
+    background-image: url('../assets/mobilebg400x600.png');
+    height: 400px; /* Let the height adjust dynamically */
+    width: 600px;
+    padding: 20px; /* Adjust padding for smaller screens */
+    background-size: cover; /* Ensure the entire image is visible */
+    background-attachment: scroll; /*Scrollable background on mobile */
+  }
+}
