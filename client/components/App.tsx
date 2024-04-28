@@ -2,12 +2,6 @@ import Nav from './Nav'
 import Projects from './Projects'
 import About from './About'
 import Contact from './Contact'
-import Learning from './Learning'
-import DirtRider from './DirtRider'
-import MealEasy from './MealEasy'
-import Todos from './Todos'
-import Prompter from './Prompter'
-import Foundations from './Foundations'
 
 const App = () => {
   return (

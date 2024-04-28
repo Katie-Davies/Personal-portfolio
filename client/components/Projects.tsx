@@ -7,6 +7,7 @@ import Todos from './Todos'
 function Projects() {
   return (
     <>
+      <div className="bg-white h-20 w-full"></div>
       <div className="flex justify-center">
         <h1 className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-10 ">
           Projects
