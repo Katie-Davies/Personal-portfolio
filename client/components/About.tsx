@@ -7,7 +7,7 @@ function About() {
           alt="3 swirls"
           className="w-44 h-auto"
         ></img>
-        <h1 className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-5 text-center">
+        <h1 className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-5 text-center font-bold">
           About
         </h1>
       </div>

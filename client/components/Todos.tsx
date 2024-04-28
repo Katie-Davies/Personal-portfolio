@@ -20,7 +20,7 @@ function Todos() {
           <ul>
             <li className="font-bold">Todos</li>
             <li>
-              <strong>Status:</strong> Deployed
+              <strong>Status:</strong> Deployed V1
             </li>
             <li>
               <strong>Tech: </strong>React | Node | Express | Typescript |

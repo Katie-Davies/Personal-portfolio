@@ -19,9 +19,9 @@ function DirtRider() {
         <div className="dirtrider-bg flex content-start justify-center flex-wrap ml-5">
           <div className="flex content-center flex-wrap w-2/3 justify-center mt-10">
             <ul>
-              <li className="font-bold mb-2">DirtRider</li>
+              <li className="font-bold ">DirtRider</li>
               <li>
-                <strong>Status:</strong> Development
+                <strong>Status:</strong> Development V1
               </li>
               <li>
                 <strong>Tech: </strong>React | React-Router | Node | Express |
@@ -32,11 +32,12 @@ function DirtRider() {
                 This is a personal project based on a need I noticed when
                 shopping for my own dirtbike. Being able to try out different
                 bikes to see which ones suits you best. Allowing people to rent
-                out their bikes and make money when they are not using them.
+                out their bikes when they are not using them.
               </li>
               <li>
                 <strong>Next steps:</strong> Using PostgreSQL, implementing
-                Azure AD B2C, deploying with Azure.
+                Azure AD B2C, deploying with Azure and implementing a payment
+                API.
               </li>
             </ul>
           </div>

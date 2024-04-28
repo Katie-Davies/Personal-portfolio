@@ -9,7 +9,7 @@ function Projects() {
     <>
       <div className="bg-white h-20 w-full"></div>
       <div className="flex justify-center">
-        <h1 className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-10 ">
+        <h1 className="text-base md:text-2xl lg:text-4xl mb-10 font-bold">
           Projects
         </h1>
       </div>

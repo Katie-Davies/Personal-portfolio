@@ -10,7 +10,7 @@ const App = () => {
       <Nav />
       <div className="landing-img flex content-center justify-start flex-wrap">
         <div className="flex flex-col justify-center w-1/2 content-center flex-wrap shrink">
-          <h1 className="mr-5 text-2xl mb-5 ">Katie Davies</h1>
+          <h1 className="mr-5 text-2xl mb-5 lg:text-6xl">Katie Davies</h1>
           <p>
             A Full-stack Developer with a passion for learning and teaching!
           </p>

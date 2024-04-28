@@ -7,11 +7,11 @@ function MealEasy() {
             <ul>
               <li className="font-bold">MealEasy</li>
               <li>
-                <strong>Status:</strong> Development
+                <strong>Status:</strong> Deployed V1 | Development V2
               </li>
               <li>
                 <strong>Tech: </strong>React | React-Router | Node | Express |
-                Typescript | sqlite | Auth0 | REST API | Dokku
+                Typescript | sqlite | Auth0 | REST API | Unit-Testing
               </li>
 
               <li className="mt-3">
@@ -20,7 +20,7 @@ function MealEasy() {
                 preferences, load more recipes, select and view shopping lists.
                 They can then reselect plans from previous weeks.
               </li>
-              <li>
+              <li className="mt-2">
                 <strong>Next Steps:</strong> User adding own recipes, using a
                 non-relational database and deploying on cloud.
               </li>

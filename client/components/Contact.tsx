@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <div className="contact-img flex justify-center flex-col content-center flex-wrap">
-      <h1 className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-20 text-center">
+      <h1 className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-20 text-center font-bold">
         Contact
       </h1>
       <div className="flex justify-around w-1/2 flex-wrap">
