@@ -8,16 +8,26 @@ function Projects() {
   return (
     <>
       <div className="flex justify-center">
-        <h1 className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-5 ">
+        <h1 className="text-base sm:text-lg md:text-2xl lg:text-4xl mb-10 ">
           Projects
         </h1>
       </div>
-      <div className="flex flex-col content-center flex-wrap h-lvh">
-        <DirtRider />
-        <MealEasy />
-        <Todos />
-        <Prompter />
-        <Foundations />
+      <div className="flex flex-col h-lvh">
+        <div className="flex justify-center">
+          <DirtRider />
+        </div>
+        <div>
+          <MealEasy />
+        </div>
+        <div>
+          <Todos />
+        </div>
+        <div>
+          <Prompter />
+        </div>
+        <div>
+          <Foundations />
+        </div>
       </div>
       {/* <button onMouseEnter={handleHover}>Hover test </button> */}
     </>

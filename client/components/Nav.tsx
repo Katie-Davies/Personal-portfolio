@@ -10,7 +10,7 @@ function Nav() {
           Projects
         </a>
         <a href="#learning" className="md:m-3 sm:m-2 lg:m-4 px-3 ">
-          Learning
+          CV
         </a>
         <a href="#contact" className="md:m-3 sm:m-2 lg:m-4 px-3 ">
           Contact
