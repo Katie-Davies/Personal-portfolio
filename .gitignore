@@ -69,3 +69,5 @@ dev.sqlite3
 tags
 
 /dist
+
+.DS_Store
