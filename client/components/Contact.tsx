@@ -7,23 +7,23 @@ function Contact() {
       <div className="flex justify-around w-1/2 flex-wrap">
         <a href="https://www.linkedin.com/in/katie-davies-36351b275/">
           <img
-            src="client/assets/LI-Logo.png"
+            src="client/assets/LinkedIN_black.png"
             alt="linked in logo"
-            className=" h-10 w-28 mt-3"
+            className=" h-10 w-10 mt-3"
           ></img>
         </a>
         <a href="https://github.com/Katie-Davies">
           <img
-            src="client/assets/GitHub_Logo.png"
+            src="client/assets/GitHub_black.png"
             alt="github logo"
-            className=" h-10 w-20 mt-3"
+            className="h-10 w-10 mt-3"
           ></img>
         </a>
         <a href="https://medium.com/@millerkatie1990">
           <img
-            src="client/assets/mediumlogo.png"
+            src="client/assets/Medium_black.png"
             alt="Medium logo"
-            className=" h-10 w-32 mt-3"
+            className=" h-10 w-10 mt-3"
           ></img>
         </a>
       </div>
