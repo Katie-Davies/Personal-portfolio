@@ -34,11 +34,6 @@ function Disney() {
                 useMutation to access the data. I also learnt how to use React
                 Toastify library.
               </li>
-              <li className="mt-3">
-                <strong>Next steps:</strong> Using PostgreSQL, implementing
-                Azure AD B2C, deploying with Azure and implementing a payment
-                API.
-              </li>
             </ul>
           </div>
         </div>
