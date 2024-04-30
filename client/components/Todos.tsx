@@ -10,7 +10,7 @@ function Todos() {
           <img
             src="client/assets/todos-bg.png"
             alt="view of todos website"
-            className="max-w-sm"
+            className="max-w-sm scale-90 hover:scale-100"
           ></img>
         </a>
       </div>

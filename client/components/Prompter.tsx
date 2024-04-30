@@ -31,7 +31,7 @@ function Prompter() {
           <img
             src="client/assets/prompter-bg.png"
             alt="view of Prompter website"
-            className="max-w-sm"
+            className="max-w-sm scale-90 hover:scale-100"
           ></img>
         </a>
       </div>
