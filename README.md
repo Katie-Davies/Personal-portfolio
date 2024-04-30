@@ -1,3 +1,5 @@
+# Personal Project
+
 # Boilerplate: React with Express and Vite
 
 This is a starter project that uses Vite to bundle a React app and Express to serve it in production. Express is used in development to serve an API server.
@@ -19,6 +21,7 @@ To use, consider these steps:
 ```sh
 git clone https://github.com/[your-account]/[your-app].git
 cd [your-app] && npm i
+
 ```
 
 To start the development server with a watcher that rebuilds your code, run `npm run dev`.
