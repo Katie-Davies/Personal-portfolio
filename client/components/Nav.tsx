@@ -8,7 +8,7 @@ function Nav() {
   }
 
   const handleDownloadPdf = () => {
-    const pdfUrl = 'client/assets/KatieDavies2024-Cv.pdf'
+    const pdfUrl = 'client/assets/KatieDavies2024-updateCv.pdf'
     // Open the PDF file in a new window/tab
     window.open(pdfUrl, '_blank')
   }
