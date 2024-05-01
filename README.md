@@ -1,5 +1,9 @@
 # Personal Project
 
+This was my original personal portfolio but after having issues with deploying on Azure I created on a new template without a server to see if that was the issue. This is now incase I want to add my own db in the future. 
+
+Please see [deployed Portfolio](https://github.com/Katie-Davies/portfolio)
+
 # Boilerplate: React with Express and Vite
 
 This is a starter project that uses Vite to bundle a React app and Express to serve it in production. Express is used in development to serve an API server.
